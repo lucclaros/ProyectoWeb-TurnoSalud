@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
+}
+
+
+
+/* seccion Perfil médico */
+
+.perfil-doctor {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  align-items: center;
+}
+
+.imagen-doctor {
+  width: 250px;
+  background-color: rgb(171, 187, 214);
+  text-align: center;
+  border-radius: 4px;
+}
+
+.imagen-doctor img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 7px 13px 37px #3578bc;
+
+}
+
+#volver {
+  
+  width: 100%;
+  text-align: left;
+  padding-top: 1%;
+  margin-left: 30px;
+}
+
+a{
+  color:#111d51;
+  text-decoration: none;
+}
+
+.info-doctor {
+  height: 200px;
+  width: 300px;
+  padding-top: 50px;
+  margin-left: 30px;
+}
+
+.info-doctor2 {
+  height: 100px;
+/*padding-bottom: 50px;*/
+  /*padding-top: 1%;*/
+  text-align: center;
+  flex-grow: 1;
+}
+
+
+/*
+.info-doctor3 {
+  width: 35%;
+  text-align: center;
+  padding-bottom: 50px;
+  flex-grow: 1;
+  
+}
+*/
+.info-doctor4 {
+  width: 80%;
+  /*width: 35%; como estaba con la descripcion del doctor*/
+  /*overflow-y: scroll;*/
+  /*height: 300px;*/
+  margin-left: 25%;
+  text-align: center;
+  padding-bottom: 50px;
+  flex-grow: 1;
+  
+  
+}
+
+#titulo_turnos {
+  text-align: left;
+}
+/*  Agenda */
+
+#agenda-doctor {
+  text-align: center;
+  width: 70%;
+  /*width: 90%; como estaba con la descripcion del doctor*/ 
+  
+  /*margin-left: 50px;*/
+  
+ /* background-color: #f0f0f0;*/
+
+}
+
+div.turnos {
+  text-align: left;
+  margin-top: 4%;
+ 
+}
+
+.horarios{
+  padding-top: 20px;
+  padding-left: 20px;
+  
+}
+
+.btn-horario {
+  margin: 0.5em;
+  padding: 4px;
+  border-radius: 50px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  color: black;
+  background-color: #c8c8c8;
+  
+  border: none;
+}
+
+.btn-sacar-turno {
+  margin-top: 10%;
+  padding: 10px;
+  border-radius: 50px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  color: white;
+  background-color: #06aace;
+  border: none;
+}
+
+
+
+@media (max-width: 694px) {
+  .imagen-doctor {
+    width: 100vw;
+    text-align: center;
+  }
+
+  .info-doctor {
+    height: 100px;
+    width: 100vw;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+ 
+  .info-doctor4 {
+
+    margin-left: 0;
+    width: 100vw;
+    text-align: center;
+    padding-top: 40px;
+    overflow-y:unset;
+    height: auto;
+  }
+
+  
+#agenda-doctor {
+  text-align: center;
+  width: 100vw;
+
+
+}
+
+  
+  .info-doctor3 {
+    margin-left: 15%;
+    padding-bottom: 0px;
+    
+  }
+
+  .info-doctor2 {
+    height: 50px;
+ 
+  }
+
+
+
+}

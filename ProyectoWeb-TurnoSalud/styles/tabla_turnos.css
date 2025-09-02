@@ -1,0 +1,257 @@
+#div_sin_turnos {
+  height: 100px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+#div_titulo {
+  margin-left: 1%;
+}
+
+.btn-filtro {
+  margin-bottom: 5%;
+}
+
+#table-container {
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 100%;
+  text-align: left;
+
+}
+
+#seccion-buscador div {
+  margin-top: 1%;
+  padding-left: 5%;
+}
+
+th {
+  font-size: 1.2em;
+}
+
+td {
+  font-size: 0.9em;
+}
+
+.contenedor-mis-turnos{
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  text-align: left;
+
+  
+}
+
+
+thead {
+
+
+  color: blue;
+}
+
+thead th,
+tbody td {
+  padding: 1%;
+  border-bottom: 2px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+tbody td {
+
+  padding: 1%;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody td:first-child {
+  font-weight: bold;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.status-confirmado {
+  color: green;
+  font-weight: bold;
+}
+
+.status-cancelado {
+  color: red;
+  font-weight: bold;
+
+}
+
+.status-espera {
+  color: orange;
+  font-weight: bold;
+}
+
+.status-cancelado {
+  color: red;
+  font-weight: bold;
+}
+
+
+#boton-cancelar {
+  padding: 10%;
+  border-radius: 50px;
+  font-size: large;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  color: white;
+  background-color: red;
+  border: none;
+}
+
+#boton-cancelar:hover {
+  background-color: red;
+}
+
+#boton-cancelar:active {
+  background-color: red;
+  transition: background-color 0.8s;
+}
+
+
+
+/* FILTROS */
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+
+.btn-filtro {
+  margin-top: 5%;
+  width: 300px;
+  padding: 8px;
+  border-radius: 50px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  color: white;
+  background-color: #06aace;
+  border: none;
+}
+
+#btn-filtro:hover {
+  background-color: #077194;
+}
+
+#btn-filtro:active {
+  background-color: #0a58ca;
+  transition: background-color 0.8s;
+}
+
+.div_filtro {
+  float: left;
+}
+
+.div_boton_turnos {
+  float: left;
+}
+
+
+
+/* RESPONSIVE*/
+
+.responsive-table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.responsive-table th,
+.responsive-table td {
+  padding: 8px;
+  text-align: left;
+}
+
+
+
+
+@media (max-width: 767px) {
+
+
+  .div_boton_turnos {
+    float: none;
+
+  }
+
+  /*
+      #div_boton_turnos{
+        margin:auto;
+        text-align: center;
+      }
+      */
+
+
+
+
+  .btn-filtro {
+    width: 100px;
+    margin-top: 5%;
+    padding: 8px;
+    border-radius: 50px;
+    font-size: 1em;
+
+  }
+
+  #boton-cancelar {
+    padding: 3%;
+    border-radius: 50px;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    color: white;
+    background-color: red;
+    border: none;
+  }
+
+
+  .responsive-table thead {
+    display: none;
+    /* Oculta los encabezados en dispositivos móviles */
+  }
+
+  .responsive-table tr {
+    margin-bottom: 0.625em;
+    display: block;
+    border-bottom: 2px solid #ddd;
+  }
+
+  .responsive-table td {
+    display: block;
+    text-align: right;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  .responsive-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-weight: bold;
+    text-align: left;
+  }
+}

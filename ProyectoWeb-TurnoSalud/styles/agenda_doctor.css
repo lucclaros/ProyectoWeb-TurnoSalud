@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: auto;
+  max-width: 100vw;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.contenedor-obrasocial{
+  display: flex;
+  flex-wrap: wrap;
+height: 70px;
+align-items: center;
+ 
+}
+
+.contenedor-dias{
+  height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.jornada-inicio{
+  height: 70px;
+  padding-top: 10px;
+
+}
+
+.jornada-fin{
+  
+  height: 70px;
+  padding-top: 10px;
+
+}
+
+
+
+
+.duracion{
+  padding-top: 15px;
+  height: 100px;
+
+  
+
+}
