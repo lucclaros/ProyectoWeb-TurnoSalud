@@ -16,7 +16,7 @@ The project was built using **HTML, CSS, JavaScript, PHP, and MySQL**.
 - **scripts/** → JavaScript files.  
 - **styles/** → CSS stylesheets.  
 - **uploads/** → Uploaded images.  
-- **index.html / index.php** → Main entry points.  
+- **index.html /** → Main entry point.  
 - **bd_turno_salud.sql** → Database schema and initial data.  
 
 ## My Contribution
