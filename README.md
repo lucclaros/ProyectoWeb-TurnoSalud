@@ -36,3 +36,9 @@ As part of this group project, I focused on the **database design and integratio
 3. Import `bd_turno_salud.sql` into MySQL.  
 4. Place the project folder inside the server's `htdocs/` directory.  
 5. Access the project in your browser at `http://localhost/ProyectoWeb-TurnoSalud/`.  
+
+
+## Documentation
+
+- [Entity-Relationship Diagram](docs/ER_Diagram.png)  
+- [Site Map](docs/SiteMap.png)
