@@ -19,11 +19,13 @@ The project was built using **HTML, CSS, JavaScript, PHP, and MySQL**.
 - **index.html /** → Main entry point.  
 - **bd_turno_salud.sql** → Database schema and initial data.  
 
-## My Contribution
-As part of this group project, I focused on the **database design and integration**:
-- Designed and implemented the **MySQL schema**.  
-- Created the `bd_turno_salud.sql` file with tables, relationships, and sample data.  
-- Wrote PHP queries to connect and interact with the database.  
+## My Contributions
+
+- Designed and implemented the **database** (ER model + SQL scripts).  
+- Developed the **user registration and login system** using PHP and MySQL.  
+- Contributed to the overall project development and integration.  
+
+> This was a group project. My main focus was the database design and the authentication system (registration & login), but I also contributed to the overall development and testing.
 
 ## Technologies
 - Frontend: HTML, CSS, JavaScript  
